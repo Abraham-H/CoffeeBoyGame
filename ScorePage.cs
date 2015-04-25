@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿//Abraham Hijazeen - G00295881
+//The following Class is used to generate the score page gui
+//It retrieved highscore from highscores storeed in Playerprefs
+
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -8,10 +12,6 @@ public class ScorePage : MonoBehaviour {
 
 	void OnGUI()
 	{
-		//GUI.color = Color.black;
-		//GUI.color = Color.blue;
-		//GUI.color = Color.black;
-
 		hs = PlayerPrefs.GetInt("Highscore");
 
 		scoreTxt.text = hs.ToString ();

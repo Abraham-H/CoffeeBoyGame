@@ -1,4 +1,6 @@
 ﻿//Abraham Hijazeen - G00295881
+//The following Class is used to create special score objects(Coffee Beans)
+//It also destroys them and adds relavent score
 
 using UnityEngine;
 using System.Collections;

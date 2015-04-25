@@ -1,5 +1,9 @@
 ﻿//Abraham Hijazeen - G00295881
 
+//The following script accumulates the score and adds that score to the score object
+//It also displays the score on screen as it accumulates
+
+
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
@@ -24,20 +28,9 @@ public class HudScript : MonoBehaviour {//Heads Up Display
 		round = (int)Math.Round (score * 100, 0);
 		goScore.text = ( "Score: " + (score * 100).ToString());
 
-
-		//if (score > hs) {
-		//	PlayerPrefs.SetInt("Highscore", round);
-		//}
-
 		PlayerPrefs.SetInt ("Score", round);
 		
 	}
-
-//	void OnDisable(){
-		//PlayerPrefs.SetInt ("Score", ((int)score *100));
-
-
-	//}
 	
 	public void incScore(int amount){//Allows score to be increases with power ups etc
 		

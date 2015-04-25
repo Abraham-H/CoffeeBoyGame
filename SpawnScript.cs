@@ -1,4 +1,6 @@
-﻿//Abraham Hijazeen - G00295881
+﻿//Abraham Hijazeen - G00295881 
+//The following script is used to spawn random game objects(Eg: Platforms)
+//The min/max can be increased using unity
 
 using UnityEngine;
 using System.Collections;

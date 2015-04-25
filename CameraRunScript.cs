@@ -1,5 +1,7 @@
 ﻿//Abraham Hijazeen - G00295881
 
+//The following script ensures the camera follows the player at all times
+
 using UnityEngine;
 using System.Collections;
 

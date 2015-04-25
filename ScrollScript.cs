@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿//Abraham Hijazeen - G00295881
+//The following Class is used to set the scroll
+
+using UnityEngine;
 using System.Collections;
 
 public class ScrollScript : MonoBehaviour {

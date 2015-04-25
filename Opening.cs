@@ -1,4 +1,5 @@
 ﻿//Abraham Hijazeen - G00295881
+//The following Class is used to generate the opening page gui
 
 using UnityEngine;
 using System.Collections;

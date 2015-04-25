@@ -1,4 +1,6 @@
 ﻿//Abraham Hijazeen - G00295881
+//The following Class is used to generate the over page gui
+//It also stores the highscore if needed
 
 using UnityEngine;
 using System.Collections;
